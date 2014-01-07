@@ -47,6 +47,7 @@
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:value forKey:@"default_tip"];
+    [defaults synchronize];
 }
 
 @end

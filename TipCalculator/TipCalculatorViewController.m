@@ -11,14 +11,13 @@
 
 @interface TipCalculatorViewController ()
 
-    @property (weak, nonatomic) IBOutlet UITextField *billTextField;
-    @property (weak, nonatomic) IBOutlet UILabel *tipLable;
-    @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
-    @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
+@property (weak, nonatomic) IBOutlet UITextField *billTextField;
+@property (weak, nonatomic) IBOutlet UILabel *tipLable;
+@property (weak, nonatomic) IBOutlet UILabel *totalLabel;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
     
 - (IBAction)onTap:(id)sender;
 - (void)updateValues;
-
 
 @end
 
